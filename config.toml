@@ -1,0 +1,24 @@
+baseURL = "https://stevenliao.me/"
+languageCode = "en-us"
+title = "steven liao" 
+theme = "hugo-theme-crisp"
+
+[params]
+    
+    tagline = "sports analytics blog"
+    logo = "https://stevenliao.me/img/self_portrait.png"
+    index = "list"
+    linkedin = "https://www.linkedin.com/in/steven-liao-997688b8/" 
+    
+[[menu.main]]
+    
+    name = "about"
+    weight = -110
+    url = "/about/"
+
+[[menu.main]]
+
+    name = "credits"
+    weight = -100
+    url = "/credits/"
+
