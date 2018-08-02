@@ -7,6 +7,7 @@ theme = "hugo-theme-crisp"
     
     tagline = "sports analytics blog"
     logo = "https://stevenliao.me/img/self_portrait.png"
+    hoverlogo = "https://stevenliao.me/img/self_portrait_colored.png"
     index = "list"
     linkedin = "https://www.linkedin.com/in/steven-liao-997688b8/" 
     
