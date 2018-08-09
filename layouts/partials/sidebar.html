@@ -11,9 +11,9 @@
         {{ end }}
         {{ if isset .Site.Params "logo" }}
             {{ if .Site.Params.roundlogo }}
-                <a id="logo" class="roundlogo" href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" /></a>
+	    <a id="logo" class="roundlogo" href="/about"><img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" /></a>
             {{ else }}
-	    <a id="logo" href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo }}" onmouseover="colorizeLogo(this);" onmouseout="normalizeLogo(this);" alt="{{ .Site.Title }}"/></a>
+	    <a id="logo" href="/about"><img src="{{ .Site.Params.logo }}" onmouseover="colorizeLogo(this);" onmouseout="normalizeLogo(this);" alt="{{ .Site.Title }}"/></a>
             {{ end }}
         {{ end }}
     </div>

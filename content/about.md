@@ -4,11 +4,11 @@ date: 2018-08-02T10:49:56+08:00
 url: "/about/"
 ---
 
-![Steven](/img/self_portrait_colored.png)
+![Steven](/img/self_portrait_colored.png#50)
 
 Hey there - I'm Steven - thanks for visiting my site :).
 
-This site is for me to post my random musings and projects related to sports analytics. It's not intended to be overly academic or technical, content-restrained, nor will I plan to do any heavy editoralizing (despite my perfectionist tendencies). I like to think of the content as glorified reddit posts, where I strive to follow a particularly precious nugget of advice from Youtubers everywhere, 'Create Content you would like to see'.
+This site is for me to post my random musings and projects related to sports analytics. It's not intended to be overly academic or technical, content-restrained, nor will I plan to do any heavy editoralizing. I like to think of the content as glorified reddit posts, where I strive to follow a particular nugget of advice from Youtubers everywhere, 'Create Content you would like to see'.
 
 About Me: I've been involved with sports analytics since college, where I served as President of the [Brown Sports Analytics Club](https://brownsportsanalytics.com). I graduated from Brown with a degree in Statistics in 2018 - in my immediate future I will be working as a trader in New York.
 
