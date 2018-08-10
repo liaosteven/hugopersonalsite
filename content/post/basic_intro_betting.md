@@ -1,7 +1,6 @@
 ---
 title: "basics of sports betting"
 date: 2018-08-10T14:48:45+08:00
-draft: true
 ---
 
 *In my content, I may frequently reference sports betting terminology / ideas. Under the [dry not wet](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w) principle, I am writing this guide.*

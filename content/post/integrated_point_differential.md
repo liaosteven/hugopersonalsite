@@ -1,7 +1,6 @@
 ---
 title: "a (potentially) better way to measure game closeness"
 date: 2018-08-10T15:04:03+08:00
-draft: true
 ---
 
 What is the best way to measure how close a game is?
