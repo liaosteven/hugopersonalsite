@@ -5,7 +5,6 @@ url: "/about/"
 ---
 
 ![Steven](/img/self_portrait_colored.png#50)
-
 Hey there - I'm Steven - thanks for visiting my site :).
 
 This site is for me to post my random musings and projects related to sports analytics. It's not intended to be overly academic or technical, content-restrained, nor will I plan to do any heavy editoralizing. I like to think of the content as glorified reddit posts, where I strive to follow a particular nugget of advice from Youtubers everywhere, 'Create Content you would like to see'.

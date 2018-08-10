@@ -143,7 +143,7 @@ Finally, the part we’ve been waiting for! Comparing fair salary to actual sala
 
 ### Results and Discussion
 
-In trading for Brock Osweiler this past Spring, the Browns essentially traded \$15 million dollars for a second round draft pick. According to our model, an average second round draft pick provides just \$8 million dollars in surplus, over all four years of the career.
+In trading for Brock Osweiler this past Spring, the Browns essentially traded \$15 million dollars for a second round draft pick. According to our model, an average second round draft pick provides just \$8 million dollars in surplus, over all four years of the rookie contract.
 
 This means the Browns in essence removed \$15 million from their asset mountain, and only received \$8 million in return.
 

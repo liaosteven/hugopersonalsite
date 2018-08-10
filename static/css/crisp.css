@@ -85,7 +85,7 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Brown", "Bree Serif", "Helvetica", serif;
+	font-family: "Brown", "Didact Gothic", "Bree Serif", "Helvetica", serif;
 	font-weight: 400 !important;
 }
 h1 {
@@ -122,6 +122,7 @@ img, iframe {
 
 img[src$='#50'] {
 	width: 50%;
+	float: right;
 }
 
 a {

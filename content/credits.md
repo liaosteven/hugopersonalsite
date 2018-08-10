@@ -7,7 +7,7 @@ My preferred font (and my favorite font in general) for viewing this site: [*Bro
 
 But, you probably wouldn't need me to tell you that, if you're seeing it ;). 
 
-If you don't have *Brown* installed on your machine (and you probably don't if you're not sure) you're probably viewing this site through [Open Sans](https://fonts.google.com/specimen/Open+Sans) or [Bree Serif](https://fonts.google.com/specimen/Bree+Serif).
+If you don't have *Brown* installed on your machine (and you probably don't if you're not sure) you're probably viewing this site through [Open Sans](https://fonts.google.com/specimen/Open+Sans) and [Didact Gothic](https://fonts.google.com/specimen/Didact+Gothic).
 
 #### Artwork
 Thanks to the talented [Jennifer Zhu](http://aridax.tumblr.com/) for commissioning my self-portraits!
