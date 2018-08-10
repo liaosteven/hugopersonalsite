@@ -1,7 +1,8 @@
 ---
-title: "Valuing NFL Draft Picks"
+title: "valuing nfl draft picks"
 date: 2018-08-08T14:10:11+08:00
 ---
+**TLDR: We make a model valuing draft picks according to how much they outperform their rookie contract (using historical data from 1994-2016). Draft picks tend to be underpaid on the whole (as expected), serving as cheap talent (whereas free agents are 'properly priced talent'). The most underpaid draft picks are in the late first round and early second round; counterintuitively, this suggests they could actually be worth more than high first round picks.**
 
 _Originally published on the_ [**Brown Sports Analytics**](http://brownsportsanalytics.com/posts/draft_pick_valuation.html) _blog. Amended below for clarity / brevity._
 

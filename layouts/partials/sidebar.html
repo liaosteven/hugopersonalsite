@@ -13,20 +13,23 @@
             {{ if .Site.Params.roundlogo }}
 	    <a id="logo" class="roundlogo" href="/about"><img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" /></a>
             {{ else }}
-	    <a id="logo" href="/about"><img src="{{ .Site.Params.logo }}" onmouseover="colorizeLogo(this);" onmouseout="normalizeLogo(this);" alt="{{ .Site.Title }}"/></a>
+	    <a id="logo" href="/about">
+		    <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}"/>
+		    <img src="{{ .Site.Params.hoverlogo }}" alt="{{ .Site.Title }}"/>
+	    </a>
             {{ end }}
         {{ end }}
     </div>
     
     <!-- stuff I'm adding - changes picture when hovered over -->
-    <script>
+    <!-- <script>
     function colorizeLogo(element) {
 	    element.setAttribute('src', {{ .Site.Params.hoverlogo }});
     }
 
     function normalizeLogo(element) {
 	    element.setAttribute('src', {{ .Site.Params.logo }});    
-    }
+    } -->
 
 </script>
     <ul class="sidebar-menu">

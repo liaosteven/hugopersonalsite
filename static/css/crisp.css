@@ -25,7 +25,25 @@ html, button, input, select, textarea,
 .header h1 a:hover {
 	text-decoration:none;
 }
-.header #logo img {
+.header #logo img:first-child {
+	display:block;
+	border: none;
+        width:80%;
+        margin: auto;
+}
+.header #logo img:last-child {
+	border: none;
+        width:80%;
+        display: none;
+        margin: auto;
+}
+.header #logo:hover img:first-child {
+	display:none;
+	border: none;
+        width:80%;
+        margin: auto;
+}
+.header #logo:hover img:last-child {
 	border: none;
         width:80%;
         display: block;
@@ -123,6 +141,11 @@ img, iframe {
 img[src$='#50'] {
 	width: 50%;
 	float: right;
+}
+
+img[src$='center'] {
+	display: block;
+	margin: 0.7rem auto;
 }
 
 a {

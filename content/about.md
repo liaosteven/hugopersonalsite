@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "about"
 date: 2018-08-02T10:49:56+08:00
 url: "/about/"
 ---
@@ -11,6 +11,6 @@ This site is for me to post my random musings and projects related to sports ana
 
 About Me: I've been involved with sports analytics since college, where I served as President of the [Brown Sports Analytics Club](https://brownsportsanalytics.com). I graduated from Brown with a degree in Statistics in 2018 - in my immediate future I will be working as a trader in New York.
 
-Outside of sports, interests and hobbies of mine include design, optimizing / quantifying / modeling everyday decisions, learning about how things work, and recently, hiking and learning new languages (French and Japanese are particularly intriguing at this moment!).
+Outside of sports, interests and hobbies of mine include design, optimizing / quantifying / modeling everyday decisions, Asian / Asian-American sociopolitical issues, learning about how things work, and recently, hiking and learning new languages (French and Japanese are particularly intriguing at this moment!).
 
 If anything about this site intrigues you, feel free to get in touch! I'm best reached at liaosteven51@gmail.com. 

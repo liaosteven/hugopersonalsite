@@ -9,7 +9,8 @@ theme = "hugo-theme-crisp"
     logo = "/img/self_portrait.png" 
     hoverlogo = "/img/self_portrait_colored.png"
     index = "list"
-    linkedin = "https://www.linkedin.com/in/steven-liao-997688b8/" 
+    linkedin = "https://www.linkedin.com/in/steven-liao-997688b8/"
+    github = "https://www.github.com/liaosteven"
     
 [[menu.main]]
     
