@@ -5,7 +5,9 @@ date: 2018-08-10T14:48:45+08:00
 
 *In my content, I may frequently reference sports betting terminology / ideas. Under the [dry not wet](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w) principle, I am writing this guide.*
 
-A **betting line** offered by sportsbooks is almost always presented as:
+If a sportsbook is a restaurant, **betting lines** are the menu items you can choose from. Betting lines tell you who (which team or individual) you're betting on, conditions for winning the bet, and how much money you'll receive if you win. Just as with restaurants, the menu of betting lines differs by sportsbook; some offer better odds, some offer more diverse menu items (WNBA, high school football), some even offer build-your-own bets.
+
+But we digress. Your common **betting line** offered by sportsbooks is presented as:
 
 <p style='text-align: center;'> <b>[Team] [Spread] [Odds] </b></p>
 
@@ -52,8 +54,8 @@ There are three odds formats:
 
 	*Example:* 
 
-	* -110 means if you bet \$110 and win, you will receive \$100 (and your \$110 back). 
-	* +120 means if you bet \$100 and win, you win \$120 (plus your \$100 back). 
+	* -110 means if you win, for every \$110 you bet, you will receive \$100 (and your \$110 back). 
+	* +120 means if you win, for every \$100 you bet, you win \$120 (plus your \$100 back). 
 
 2. **Fractional Odds:** Represent the ratio of [amount you win] to [amount you wager]. 
 
@@ -64,11 +66,11 @@ There are three odds formats:
 3. **Decimal Odds:** Represent the ratio of [amount you win + your wager] to [your wager]
 
 	*Example:* 
-	* 1.7 odds means if you win, for every \$1 you bet, you get \$1.70 back total (earning a profit of \$0.70).
+	* 1.7 odds means if you win, for every \$1 you bet, you get \$1.70 back *total* (this includes your \$1 back, so you earn a net profit of \$0.70).
 
 ### Highly Useful Terminology
 
-* **Spread** - The handicap for a given sports game. It is assumed, unless noted otherwise, that the spread refers specifically to the handicap such that both sides are consiered equally likely. 
+* **Spread** - The handicap for a given sports game. It is assumed, unless noted otherwise, that the spread refers specifically to the handicap such that both sides are considered equally likely. 
 
 	Example: Joe asked Bob, "What's the spread for the Lakers-Clippers game?" Bob says, "It's Lakers -10."  
 
@@ -81,6 +83,8 @@ There are three odds formats:
 * **Cover** - The winning side of a spread bet is said to 'cover.'
 
 	Example: Joe says, "Who won tonight?" Bob says, "The Lakers won, but failed to cover."
+
+	From Bob's statement, we infer the Lakers won, but by less than 10 points.
 
 * **Push** - When neither side of a bet covers. 
 

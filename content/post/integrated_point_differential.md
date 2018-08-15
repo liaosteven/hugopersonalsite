@@ -1,6 +1,6 @@
 ---
 title: "a better way to measure game closeness"
-date: 2018-08-11T15:04:03+08:00
+date: 2018-08-14T15:04:03+08:00
 ---
 
 **TLDR: The final score does not tell the whole story regarding how close a game was. Integrated Point Differential (IPD) improves upon Point Differential by accounting for the score throughout the game, as opposed to just the final score. Spread Integrated Point Differential (SIPD) adjusts IPD with respect to the spread, and could be a useful proxy for whether a bet was the right side (even if it didn't cover).**
@@ -114,7 +114,7 @@ Nothing surprising here - the only 'anomaly' is the Falcons Bucs game, which ran
 ### SIPD in Practice 
 Things get more interesting when we look at SIPD - the games with highest absolute (i.e. apply absolute value) SIPD could be viewed, in hindsight, as the 'safest' bets - games in which the spread was wildly off, where your bet was **_least in doubt_**.
 
-Another way I like to interpret this: NFL games involve quite a bit of luck. If you cover your bet, that doesn't mean you made the right bet - i.e. if the game was played in 10,000 alternative universes, each side might cover 5,000 times. However, obviously sportsbooks can't set perfect spreads every time - there will be games which the spread is wildly off, where perhaps if the game was played in 10,000 alternative universes, one side might cover 8,000 times. Games with extremely high absolute SIPD are games in which *we are most confident that the spreads were off*.
+Another way we can interpret this: NFL games involve quite a bit of luck. If you cover your bet, that doesn't mean you made the right bet - i.e. if the game was played in 10,000 alternative universes, each side might cover 5,000 times. However, obviously sportsbooks can't set perfect spreads every time - there will be games which the spread is wildly off, where perhaps if the game was played in 10,000 alternative universes, one side might cover 8,000 times. Games with extremely high absolute SIPD are games in which *we are most confident that the spreads were off*.
 
 Obviously, we don't know the SIPD until after the game is over. However, maybe studying previous games with high absolute SIPDs can give us insight on how we can identify future games in which spreads are off.
 
@@ -143,7 +143,7 @@ However, the SIPD indicates that betting on the Raiders here would have been an 
 ### Summary
 
 * IPD improves over point differential in representing your internal sense of how close a game was. For games where you say "the game was closer than the score indicates," this will be reflected by a lower (absolute) IPD.
-* IPD is useful in finding good games to watch. The team with a negative IPD won? Likely a comeback. The 2017 Super Bowl between the Patriots and Falcons had a -40859 IPD for the Patriots (note the IPD accurately reflects how for much of the game, things didn't feel close). Games with extremely low (absolute) IPDs and high scores are likely back-and-forth battles with several lead changes.
+* IPD is useful in finding good games to watch. The team with a negative IPD won? Likely a comeback. The 2017 Super Bowl between the Patriots and Falcons had a -40859 IPD for the Patriots (note the IPD accurately reflects how for much of the game, things didn't feel close). Games with extremely low (absolute) IPDs and high scores are likely exciting back-and-forth battles with several lead changes.
 * SIPD is useful tool for betters, as a metric that sheds light on how 'off' a spread was. The higher the SIPD, the more covering was never in doubt.
 * With the understanding that the game of football involves a lot of luck, SIPD may also be a useful metric for determining if you 'made the right bet.' For instance, you might lose a bet on a backdoor cover, but a positive SIPD might be a good proxy for whether you had the right side (i.e. in 10,000 universes you would have covered in more than half).
 * Although all examples were in reference to football here, IPD and SIPD can easily be extended to other sports as well. 
