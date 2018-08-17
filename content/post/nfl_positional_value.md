@@ -24,11 +24,11 @@ Below are the cap market share breakdowns by position from 2003 and 2017:
 
 The percentage split, for the most part, is similar between the two years. However, note that with so many positions, and relative limited flexibility in how many players can be rostered at each position (i.e. you're always going to need 2+ quarterbacks, 3+ running backs, 7+ offensive linemen, etc.), even what seem to be 'small' changes in spending can in fact represent fairly large changes in positional value.
 
-Consider, for instance, the NBA, a league with just five positions (traditionally speaking - forget the 'positionless' talk for now). Now suppose teams spend 24% of their market cap on point guards. If teams increase spending on point guards by 25%, 32% of the cap becomes devoted to point guards, a noticeable difference. Now consider the NFL, with at least 15 positions: if teams spend 5% of their market cap on running backs, and increased spending by 25%, the running back market share would 'only' increase to 6.25% - which doesn't seem as big, even though the shift in positional value might be similar in both cases.
+Consider, for instance, the NBA, a league with just five positions (traditionally speaking - forget the 'positionless' talk for now). Now suppose teams spend 24% of their market cap on point guards. If teams increase spending on point guards by 25%, 32% of the cap becomes devoted to point guards, a noticeable difference. Now consider the NFL, with over 15 positions: if teams spend 5% of their market cap on running backs, and also increase spending by 25%, the running back market share would 'only' increase to 6.25% - which doesn't seem as big, even though the shift in positional value might be similar in both cases.
 
-Therefore - my point is: **"small" changes in positional market share should not necessarily be interpreted as trivial changes in positional value** - instead it might be more meaningful to look at *percentage change in market share* for each position (i.e increasing market share from 5% to 6.25% represents a 25% increase in market share for running backs).
+Therefore - my point is: **don't be mislead by seemingly "small" changes in positional market share** - instead it might be more meaningful to look at *percentage change in market share* for each position (i.e increasing market share from 5% to 6.25% represents a 25% increase in market share for running backs).
 
-Two of the biggest changes between 2003 and 2017 are at quarterback and running back, corroborating the idea that more than ever before, today's NFL is a passing league.
+Two of the biggest changes in positional spending between 2003 and 2017 are at quarterback and running back, corroborating the idea that more than ever before, today's NFL is a passing league.
 
 To get a sense of this change, if teams valued running backs in 2018 as they did in 2003, 49ers Running Back Jerick McKinnon's 4 year, 30 million dollar contract signed in June 2018 turns into a whopping 4 year, 46.5 million dollar contract (assuming teams tend to roster the same number of running backs in both years). 
 
@@ -37,15 +37,15 @@ Beyond quarterback and running back, we have:
 * **Positions Increasing in Cap Share**: Quarterback, Linebacker, Cornerback, Wide Receiver, Tight End, Safety, Punter / Kicker
 * **Positions Decreasing in Cap Share**: Running Back, Offensive Linemen, Defensive Tackle, Defensive End
 
-The main surprise to me is that defensive ends have lost value. One potential explanation is the rise of 3-4 defenses; teams are rostering more linebackers and less defensive lineman, and so the spending follows. 
+The main surprise to me is that defensive ends have lost value, during a time when pass rush is perhaps becoming more valuable than ever. One potential explanation is the rise of 3-4 defenses; teams are rostering more linebackers and less defensive lineman, and so the spending follows. 
 
-However, this comparison between 2003 and 2017 cap utilization has some inherent limitations. First, rookie spending decreased significantly due to new rules in 2011 - so rookie contracts take up a relatively smaller amount of cap market share now. This can become a slight problem - for instance, suppose there is no difference in positional valuations between 2003 and 2017. However, suppose teams tend to draft a lot of offensive linemen in general. Then, you might see offensive linemen taking up a smaller percentage of cap market share in 2017 than in 2003, when in reality positional value hasn't changed over time.
+Ultimately, this comparison between 2003 and 2017 cap utilization has some inherent limitations. First, rookie spending decreased significantly due to new rules in 2011 - so rookie contracts take up a smaller amount of cap market share in 2017. This can become a slight problem - for instance, suppose there is no difference in positional valuations between 2003 and 2017. Also, suppose teams tend to draft a lot of offensive linemen in general. Then, you might see offensive linemen taking up a smaller percentage of cap market share in 2017 than in 2003 (because the rookie contracts are cheaper), when in reality positional value hasn't changed over time.
 
-Second, the USA Today data (2003) shows the cap hits only of the rostered players (52), while Spotrac (2017) includes things like Dead Cap - ideally, we would prefer an apples-to-apples comparison. 
+Second, the USA Today data (2003 data) shows the cap hits only of the rostered players (52), while Spotrac (2017 data) includes things like dead cap (cap hits of players who are on longer on the team - i.e. guaranteed money of a cut player) - ideally, we would prefer an apples-to-apples comparison. 
 
 ### Comparing 2011 and 2017
 
-The earliest contract data is available on Spotrac is 2011; therefore if we want to make an apples-to-apples comparison with 2017, the best (earliest) we can do is to compare it to 2011.
+Spotrac contains contract data going back to 2011; therefore if we want to make an apples-to-apples comparison with 2017, the best (earliest) we can do is to compare it to 2011.
 
 Spotrac's position labels are also much more descriptive, giving us more meaningful positions to work with:
 
