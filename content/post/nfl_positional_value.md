@@ -1,10 +1,9 @@
 ---
-title: "nfl positional value: surveying positional spending from 2003 to 2017"
+title: "nfl positional value: cap spending by position from 2003 to 2017"
 date: 2018-08-17T14:35:27+08:00
-draft: true
 ---
 
-**TLDR: Teams are devoting more spending resources to 'passing players' - players who feature in the passing game (quarterback, wide receiver), and players who defend the passing game (defensive backs).**
+**TLDR: Teams are devoting more spending resources to positions heavily involved in the passing game - quarterbacks, wide receivers, tight ends, defensive backs. On the contrary, and as expected, running back spending has been hit hard.**
 
 We've all heard the story that the NFL is becoming a passing league. And most would agree that running backs in particular, have seen their value go down in recent years.
 
@@ -23,28 +22,30 @@ Below are the cap market share breakdowns by position from 2003 and 2017:
 ![2003 NFL Cap Spending By Position](/img/nfl_positional_value/pie_2003.png#49)
 ![2017 NFL Cap Spending By Position](/img/nfl_positional_value/pie_2017_amended.png#49)
 
-The percentage split, for the most part, is similar between the two years. However, note that with so many positions, and relative limited flexibility in how many players can be rostered at each position (i.e. you're always going to need 2+ quarterbacks, 3+ running backs, 7+ offensive linemen, etc.), even what seem to be 'small' changes in spending can in fact be fairly large changes in positional value.
+The percentage split, for the most part, is similar between the two years. However, note that with so many positions, and relative limited flexibility in how many players can be rostered at each position (i.e. you're always going to need 2+ quarterbacks, 3+ running backs, 7+ offensive linemen, etc.), even what seem to be 'small' changes in spending can in fact represent fairly large changes in positional value.
 
-Take for instance: in a league with just 5 positions (i.e NBA), suppose teams spent 24% of their market cap on point guards. Now suppose teams increased spending on point guards by 25% - now 32% of the cap is devoted to point guards, a noticeable difference. However, the NFL has significantly more positions; if teams spend 5% of their market cap on running backs, and increased spending by 25%, the running back market share would 'only' increase to 6.25% - which doesn't seem as big, even though the shift in positional value might be similar in both cases.
+Consider, for instance, the NBA, a league with just five positions (traditionally speaking - forget the 'positionless' talk for now). Now suppose teams spend 24% of their market cap on point guards. If teams increase spending on point guards by 25%, 32% of the cap becomes devoted to point guards, a noticeable difference. Now consider the NFL, with at least 15 positions: if teams spend 5% of their market cap on running backs, and increased spending by 25%, the running back market share would 'only' increase to 6.25% - which doesn't seem as big, even though the shift in positional value might be similar in both cases.
 
-Therefore - my point is: **"small" changes in positional market share should not necessarily be interpreted as trivial changes in positional value** - instead it might be more meaningful to look at percentage change in market share for each position (i.e increasing market share from 5% to 6.25% represents a 25% increase in market share for running backs).
+Therefore - my point is: **"small" changes in positional market share should not necessarily be interpreted as trivial changes in positional value** - instead it might be more meaningful to look at *percentage change in market share* for each position (i.e increasing market share from 5% to 6.25% represents a 25% increase in market share for running backs).
 
 Two of the biggest changes between 2003 and 2017 are at quarterback and running back, corroborating the idea that more than ever before, today's NFL is a passing league.
 
-To get a sense of this change, if teams valued running backs in 2018 as they did in 2003, 49ers Running Back Jerick McKinnon's 4 year, 30 million dollar contract signed in June 2018 turns into a whopping 4 year, 46.5 million dollar contract (assuming teams roster the same number of running backs between years). 
+To get a sense of this change, if teams valued running backs in 2018 as they did in 2003, 49ers Running Back Jerick McKinnon's 4 year, 30 million dollar contract signed in June 2018 turns into a whopping 4 year, 46.5 million dollar contract (assuming teams tend to roster the same number of running backs in both years). 
+
+Beyond quarterback and running back, we have: 
 
 * **Positions Increasing in Cap Share**: Quarterback, Linebacker, Cornerback, Wide Receiver, Tight End, Safety, Punter / Kicker
 * **Positions Decreasing in Cap Share**: Running Back, Offensive Linemen, Defensive Tackle, Defensive End
 
 The main surprise to me is that defensive ends have lost value. One potential explanation is the rise of 3-4 defenses; teams are rostering more linebackers and less defensive lineman, and so the spending follows. 
 
-However, this is not a perfect comparison. First, rookie spending was significantly reduced starting with the 2011 NFL draft - so rookie contracts take up a relatively smaller amount of cap market share now. So, for instance, suppose there is no difference in positional valuation between 2003 and 2017. However, if teams tend to draft a lot of offensive linemen in general, you might see offensive linemen taking up a smaller percentage of cap market share in 2017 than in 2003.
+However, this comparison between 2003 and 2017 cap utilization has some inherent limitations. First, rookie spending decreased significantly due to new rules in 2011 - so rookie contracts take up a relatively smaller amount of cap market share now. This can become a slight problem - for instance, suppose there is no difference in positional valuations between 2003 and 2017. However, suppose teams tend to draft a lot of offensive linemen in general. Then, you might see offensive linemen taking up a smaller percentage of cap market share in 2017 than in 2003, when in reality positional value hasn't changed over time.
 
-Second, the USA Today data shows the cap hits only of the rostered players (52), while Spotrac includes things like Dead Cap - ideally, we would prefer an apples-to-apples comparison. 
+Second, the USA Today data (2003) shows the cap hits only of the rostered players (52), while Spotrac (2017) includes things like Dead Cap - ideally, we would prefer an apples-to-apples comparison. 
 
 ### Comparing 2011 and 2017
 
-The earliest contract data is available on Spotrac is 2011; therefore if we want to make an apples-to-apples comparison with 2017, the best we can do is to compare it to 2011.
+The earliest contract data is available on Spotrac is 2011; therefore if we want to make an apples-to-apples comparison with 2017, the best (earliest) we can do is to compare it to 2011.
 
 Spotrac's position labels are also much more descriptive, giving us more meaningful positions to work with:
 
