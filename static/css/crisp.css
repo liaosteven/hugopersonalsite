@@ -138,6 +138,11 @@ img, iframe {
 	max-width: 100%;
 }
 
+img[src$='#49'] {
+	width: 49%;
+	float:none;
+}
+
 img[src$='#50'] {
 	width: 50%;
 	float: right;
