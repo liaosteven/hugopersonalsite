@@ -14,7 +14,7 @@ One way to measure positional value is to measure how much of its cap space a te
 
 [Spotrac](https://www.spotrac.com/nfl/st.-louis-rams/cap/2011/) provides cap space information from 2011 to current. USA Today used to maintain an online database of cap information going back to 2000, but has since taken access to the database down. I used Way Back Machine to find [archived pages from the site](http://web.archive.org/web/20120427003444/http://content.usatoday.com:80/sportsdata/football/nfl/Patriots/salaries/2003); the earliest year I could find data for all teams was 2003. 
 
-My Jupyter Notebook containing the code for scraping and processing the data can be found [here](github.com).
+A Jupyter Notebook containing my code for scraping and processing the data can be found [here](https://github.com/liaosteven/hugopersonalsite/tree/master/static/code/nfl_positional_value).
 
 ### Comparing 2003 and 2017
 
