@@ -1,9 +1,9 @@
 ---
 title: "nfl positional value: cap spending by position from 2003 to 2017"
-date: 2018-08-17T14:35:27+08:00
+date: 2018-08-20T14:35:27+08:00
 ---
 
-**TLDR: Teams are devoting more spending resources to positions heavily involved in the passing game - quarterbacks, wide receivers, tight ends, defensive backs. On the contrary, and as expected, running back spending has been hit hard.**
+**TLDR: Teams are devoting more spending resources to positions heavily involved in the passing game - quarterbacks, wide receivers, tight ends, defensive backs. On the contrary, and as expected, teams are spending far less on running backs.**
 
 We've all heard the story that the NFL is becoming a passing league. And most would agree that running backs in particular, have seen their value go down in recent years.
 
@@ -22,9 +22,9 @@ Below are the cap market share breakdowns by position from 2003 and 2017:
 ![2003 NFL Cap Spending By Position](/img/nfl_positional_value/pie_2003.png#49)
 ![2017 NFL Cap Spending By Position](/img/nfl_positional_value/pie_2017_amended.png#49)
 
-The percentage split, for the most part, is similar between the two years. However, note that with so many positions, and relative limited flexibility in how many players can be rostered at each position (i.e. you're always going to need 2+ quarterbacks, 3+ running backs, 7+ offensive linemen, etc.), even what seem to be 'small' changes in spending can in fact represent fairly large changes in positional value.
+The percentage split, for the most part, appears similar between the two years. However, note that with so many positions, and relative limited flexibility in how many players can be rostered at each position (i.e. you're always going to need 2+ quarterbacks, 3+ running backs, 7+ offensive linemen, etc.), even what seem to be 'small' changes in spending can in fact represent fairly large changes in positional value.
 
-Consider, for instance, the NBA, a league with just five positions (traditionally speaking - forget the 'positionless' talk for now). Now suppose teams spend 24% of their market cap on point guards. If teams increase spending on point guards by 25%, 32% of the cap becomes devoted to point guards, a noticeable difference. Now consider the NFL, with over 15 positions: if teams spend 5% of their market cap on running backs, and also increase spending by 25%, the running back market share would 'only' increase to 6.25% - which doesn't seem as big, even though the shift in positional value might be similar in both cases.
+Consider, for instance, the NBA, a league with just five positions (traditionally speaking - forget the 'positionless' talk for now). Suppose teams spend 24% of their market cap on point guards. If teams increase spending on point guards by 25%, 30% of the cap becomes devoted to point guards, a noticeable difference. Now consider the NFL, with over 15 positions: if teams spend 5% of their market cap on running backs, and also increase spending by 25%, the running back market share would 'only' increase to 6.25% - which doesn't seem as big, even though the shift in positional value might be similar in both cases.
 
 Therefore - my point is: **don't be mislead by seemingly "small" changes in positional market share** - instead it might be more meaningful to look at *percentage change in market share* for each position (i.e increasing market share from 5% to 6.25% represents a 25% increase in market share for running backs).
 

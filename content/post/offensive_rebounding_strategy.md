@@ -1,6 +1,6 @@
 ---
 title: "nba: how does the rise of the 3-pointer impact offensive rebounding strategy?"
-date: 2018-08-16T16:59:08+08:00
+date: 2018-08-17T16:59:08+08:00
 ---
 
 **TLDR: Teams that play "Morey-Ball" should value offensive rebounds more, and consider devoting more resources to grabbing them.**
@@ -14,7 +14,7 @@ In this post we are concerned with the following strategic questions:
 * How much are offensive rebounds worth? Are they worth more depending on where you shoot from? 
 * How should offensive rebounding strategy change depending on style of play? In particular, what should offensive rebounding strategy be for 3-point shooting teams?
 
-Unlike some other posts, this blog post won't feature my own work extensively. Instead, I hope to summarize outside literature and combine it with some minor work of my own; my primary purpose is to share and explain some of the existing ideas surrounding the aforementioned problems (as opposed to say, make a strong argument in favor of a certain solution). 
+Unlike some other posts, this blog post won't feature my own work extensively. Instead, I hope to summarize outside literature and combine it with some minor work of my own. 
 
 ### Introduction: The State of Things
 
@@ -22,13 +22,13 @@ The NBA has witnessed an analytics-driven trend towards shooting more efficient 
 
 Take the Rockets and GM Daryl Morey, for instance. Known for their 'Morey-Ball' tactics, in the 2017-2018 NBA season, the Rockets shot 3's at the league's highest frequency([52.6%](http://stats.nba.com/teams/shots-general/?sort=FG3A_FREQUENCY&dir=1&Season=2017-18&SeasonType=Regular%20Season)). The Rockets paired that with the league's highest field goal percentage for 2-pointers ([61.9%](http://stats.nba.com/teams/shots-general/?sort=FG2_PCT&dir=1&Season=2017-18&SeasonType=Regular%20Season)). In other words, they limited their 2-point attempts to only the most efficient shots.
 
-An increase in offensive efficiency increases the value of a new offensive possession. **This, then, suggests an increase in the value of an offensive rebound, where an offensive rebound results in an additional possession for the offense.**
+An increase in offensive efficiency increases the value of an offensive possession (i.e. increased points per possession). **This, then, suggests an increase in the value of an offensive rebound, where an offensive rebound results in an additional possession for the offense.**
 
 However - over the last 5 years, the offensive rebound rate (percentage of missed shots resulting in offensive rebounds) has decreased each and every year. 
 
 The offensive rebound rate was	[22.3% for the 2017-2018 NBA season](https://www.basketball-reference.com/leagues/NBA_2018.html#all_misc_stats), an [all-time low](http://www.nba.com/article/2017/04/06/russell-westbrook-triple-doubles-rebounding-trends) since offensive rebounds were first tracked in 1963. 
 
-The argument coaches have been presenting against offensive rebounds is that they are risky, and make you vulnerable on the defensive side - especially against these new sniper-happy Warrior / Rockets - esque teams. [Many prominent NBA coaches such as Greg Popovich, Doc Rivers, and Erik Spoelstra](http://www.espn.com/nba/story/_/id/14505051/transition-defense-left-offensive-rebounds-cutting-room-floor) have been on record denouncing the value of offensive rebounds. 
+The argument coaches have been presenting against offensive rebounds is that they are risky, and make you vulnerable on the defensive side - especially against these new sniper-happy Warriors / Rockets - esque teams. [Many prominent NBA coaches such as Greg Popovich, Doc Rivers, and Erik Spoelstra](http://www.espn.com/nba/story/_/id/14505051/transition-defense-left-offensive-rebounds-cutting-room-floor) have been on record denouncing the value of offensive rebounds. 
 
 ### Offensive Rebound Valuation (Intuition and Logic)
 
@@ -40,9 +40,9 @@ However, an increase in points per possession alone does not always mean an offe
 
 This, then, is simply 'point inflation' - it's as if the NBA made each 2-pointer worth 4, each 3-pointer worth 6, and each free throw worth 2. The value of a possession, or an offensive rebound, does not rise.
 
-In summary: an offensive rebound's value increases as your *relative offensive efficiency* increases. To put it another way, offensive rebounds should be worth more against teams with bad offensive efficiency than against teams with good offensive efficiency. If your team averages 1.1 points per possession, it should value offensive rebounds more against a team averaging 1.0 points per possession than against a team averaging 1.2 points per possession.
+In summary: an offensive rebound's value increases as your *relative offensive efficiency* increases. Perhaps counterintuitively, this means offensive rebounds should be worth more against teams with bad offensive efficiency than against teams with good offensive efficiency. If your team averages 1.1 points per possession, it should value offensive rebounds more against a team averaging 1.0 points per possession than against a team averaging 1.2 points per possession.
 
-This supports the arguments posed by Popovich and co. - playing teams like the Warriors and Rockets, offensive rebounds indeed have less value, since those teams's offenses are so efficient. **However, perhaps the coaches might reconsider being more aggressive on the boards when against teams with poor(er) offensive efficiency.**
+This, then, supports the arguments posed by Popovich and co. - when playing against the Warriors and Rockets, offensive rebounds indeed have less value, since against those teams, *relative offensive efficiency* is low. **However, perhaps the coaches might reconsider being more aggressive on the boards when against teams with poor(er) offensive efficiency.**
 
 ### Offensive Rebound Valuation (Data)
 
@@ -60,7 +60,7 @@ The chart includes six different types of possessions. First, there's all posses
 
 For each possession type, the chart shows how often possessions of that type end up in 0, 1, 2, 3, 4, and 5 points. The final column shows the average points per possession for that possession type.
 
-As of the 2015-2016 season, points per possession is higher for possessions coming off offensive rebounds (1.2242 to 1.0423), and this difference was statistically significant (p < 2.2e-16)
+As of the 2015-2016 season, points per possession is higher for possessions coming off offensive rebounds (1.2242 to 1.0423), and this difference was statistically significant (p < 2.2e-16).
 
 The points per possession for offensive rebound possessions also varied by missed shot location, but these differences were not statistically significant.
 
@@ -81,7 +81,7 @@ It's plausible that teams are behaving suboptimally due to risk aversion - a com
 
 ### Energy Expenditure
 
-One additional point that coaches might take into consideration is energy expenditure. Suppose 'crashing the boards' on a missed shot increases your net point differential in the game by an expected 0.15. Is that worth the extra energy that your team expends?
+One additional point that coaches might take into consideration is energy expenditure. Suppose 'crashing the boards' on a missed shot increases your net point differential in the game by an expected 0.15. Is that worth the extra energy that your team expends going after the rebound?
 
 First, any time you crash the boards, you run the risk of wasting energy if the shot goes in. Consider, then, that 3-pointers are high-efficiency, low-probability shots. It follows since 3-pointers are less likely to go in than a regular shot, crashing after a 3 point attempt is less likely to involve wasted energy.
 
@@ -89,7 +89,7 @@ First, any time you crash the boards, you run the risk of wasting energy if the 
 
 In 2012 Sloan paper ["Deconstructing the Rebound with Optical Tracking Data"](http://www.sloansportsconference.com/wp-content/uploads/2012/02/108-sloan-sports-2012-maheswaran-chang_updated.pdf), Maheswaran et. al finds missed shot attempts from close to the basket (36%) and from beyond the three-point arc (25.5%) have the highest offensive rebound rates, while missed mid-range shots (21.5%) have the lowest.
 
-As Maheswaran et. al notes, this further increases the value of 3-pointers and close-range 2's: they are not just efficient shots, they may also be more easily reboundable.
+As Maheswaran et. al notes, this further increases the value of 3-pointers and close-range 2's: they are not just efficient shots, they may also be more conducive to grabbing offensive rebounds. 
 
 In repeating this study on 2015-2016 NBA data, I was not able to entirely reproduce the same results. My results are below:
 
@@ -109,16 +109,16 @@ Note none of this necessarily implies it is *more difficult* to grab offensive r
 
 ### Takeaways
 
-If you felt like the previous sections were only tangentially related - you are not wrong! My intention in this post wasn't to organize an argument as much as it was to summarize various ideas to consider when evaluating offensive rebound strategy. If you like modeling, or are doing a project related to sports analytics, any one of these sections could be fruitful for further exploration.
+If you felt like the previous sections were only tangentially related - you are not wrong! My intention in this post wasn't so much to present a cohesive argument as it was to highlight various ideas to consider when evaluating offensive rebound strategy. If you like modeling, or are doing a project related to sports analytics, any one of these sections could be fruitful for further exploration.
 
 To summarize the post, there is a lot of evidence that suggests offensive rebounds should be more valuable to high-effiency teams (teams that prefer shooting 3's and close-range 2's):
 
-* Intuition / logic suggests teams with high relative offensive efficiencies should value offensive rebounds more.
+* Intuition / logic suggests teams with high *relative offensive efficiencies* should value offensive rebounds more.
 * Data suggests teams are not crashing the boards enough - possibly out of risk aversion. Wiens et. al estimates if a team switched from the least optimal to 'most optimal' board crashing strategy, it would equate to a widening of roughly 4 points in point differential per game
 * Data suggests that offensive rebound rates are highest for close-range two's
 * Wasted energy expenditure from crashing the boards on made shots is least when crashing on 3-point attempts
 
-What's unclear, at least to me, is *how much more valuable* offensive rebounds are for, say the Rockets versus the Timberwolves. Quantifying *how much* more valuable an offensive rebound is to a Morey-Ball type team would give insight as to whether playing MoreyBall warrants a custom offensive rebounding strategy:
+What's unclear, at least to me, is *how much more valuable* offensive rebounds are for, say the Rockets versus the Timberwolves. Quantifying *how much* more valuable an offensive rebound is to a Morey-Ball type team would give insight as to whether playing Morey-Ball warrants a custom offensive rebounding strategy:
 
 Other offensive rebounding takeaways unrelated to 3-point shooting:
 
