@@ -1,10 +1,9 @@
 ---
-title: "basics of sports betting: part two"
+title: "basics of sports betting part 2: probability concepts"
 date: 2018-08-20T20:00:38+08:00
-draft: true
 ---
 
-*This is __Part Two__ of Three. [Part One]({{< ref "basic_intro_betting.md" >}}) covers definitions and betting language. [Part Two]({{< ref "basic_intro_betting_2.md" >}}) covers key probability concepts in betting. [Part Three]({{< ref "basic_intro_betting_3.md" >}}) covers ancillary concepts such as bankroll management and implied odds.*
+*This is __Part Two__ of Four. [Part One]({{< ref "basic_intro_betting.md" >}}) covers definitions and betting language. [Part Two]({{< ref "basic_intro_betting_2.md" >}}) covers key probability concepts in betting. [Part Three]({{< ref "basic_intro_betting_3.md" >}}) covers implied odds.*
 
 Welcome to Part Two of the guide! Here, we'll move on from simply understanding terminology to introducing some probablistic concepts in sports betting. 
 
@@ -58,12 +57,12 @@ Dolphins +3 -110</b>
 </p>
 
 What is your edge on betting on one of these lines? By definition of EV, we calculate edge (EV) as follows:$$\text{Edge} = [\text{Probability of Cover}] \times [\text{Amount You Would Win}] + [\text{Probability of Loss}] \times [\text{Amount You Would Lose}]$$Let's assume both sides are indeed equally likely. Let $x$ be the amount you wager on the Patriots. Your edge then is:
-$\begin{aligned}
-\dfrac{1}{2} \times \dfrac{x}{1.1} + \dfrac{1}{2} \times -x &= \dfrac{x}{2.2} - \dfrac{x}{2} \\ 
-&= \dfrac{2x}{4.4} - \dfrac{2.2x}{4.4} \\
-\&= -\dfrac{0.2x}{4.4} \\
-&= \dfrac{x}{22}
-\end{aligned}$
+$\begin{align}
+[\dfrac{1}{2} \times \dfrac{x}{1.1}] + [\dfrac{1}{2} \times (-x)] &= \dfrac{x}{2.2} - \dfrac{x}{2} \\\\ 
+&= \dfrac{2x}{4.4} - \dfrac{2.2x}{4.4} \\\\\
+&= -\dfrac{0.2x}{4.4} \\\\\
+&= \boxed{-\dfrac{x}{22}}
+\end{align}$
 
 So on your typical bet against the spared (where we assume both outcomes are 50-50) - with **-110** odds on both sides - you should expect to lose 4.5% of your wager on each bet!
 
@@ -71,7 +70,7 @@ So on your typical bet against the spared (where we assume both outcomes are 50-
 
 **Decimal odds offer one key convenience - they make calculating edge (significantly) easier.** Using Decimal Odds, edge is calculated as:$$[\text{Decimal Odds}] \times [\text{Probability you Cover}] -1$$This formula can be derived / seen by working through an example where you bet \$1:
 
-* You start with \$1. After the bet, there is an $[\text{Probability You Cover}]$ chance you get $[\text{Decimal Odds}]$ back (remember, decimal odds refer to the total amount you receive if you win - including your wager back). There is a  $[\text{Probability You Don't Cover}]$ chance you get \$0 back. Thus, at the end of the bet, you expect to have 
+* You start with \$1. After the bet, there is an $[\text{Probability You Cover}]$ chance you get $[\text{Decimal Odds}]$ back (i.e. if decimal odds are 2.70, you get \$2.70 back if you win, which includes your original wager). There is a  $[\text{Probability You Don't Cover}]$ chance you get \$0 back. Thus, at the end of the bet, you expect to have 
 
 $$[\text{Decimal Odds}] \times [\text{Probability you Cover}] + 0\times[\text{Probability you Don't Cover}] = [\text{Decimal Odds}]\\times [\text{Probability you Cover}]$$ Subtract \$1, your starting total, and you get how much you expect to make off that bet.
 
@@ -79,11 +78,17 @@ Note the Decimal Odds Equivalent of -110 is $\dfrac{2.1}{1.1}$ or about $1.909$.
 
 ### Breakeven Probability
 
-Assume a sportsbook offers -110 odds on some event occurring. What is the 'breakeven probability' - the probability of the event occuring where your edge would be 0? 
+Assume a sportsbook offers -110 odds on some event occurring. What is the 'breakeven probability' - **the probability of the event occuring where your edge would be 0**? Worded more practically, how likely does the event need to occur for you to make this bet?
 
-Let the breakeven probability be $p$. We want $p$ such that:$$1 \times p - 1.1 \times \(1-p\) = 0$$Solving, we find $p = \boxed{\dfrac{1.1}{2.1}}$, or $\approx 52.38\%$.
+Let the breakeven probability be $p$. By definition, we want $p$ such that:$$1 \times p - 1.1 \times \(1-p\) = 0$$Solving, we find $p = \boxed{\dfrac{1.1}{2.1}}$, or $\approx 52.38\%$.
 
-**Breakeven probability is also significantly easier to calculate with decimal odds** (I honestly wish decimal odds were the norm). Assume decimal odds are $d$. Remember, we derived the formula for edge as:$$d \times [\text{Probability you Cover}] -1$$It follows that if $p$ is the breakeven probability, then we solve$$d \times p -1 =0 \to p = \boxed{\dfrac{1}{d}}$$
+**Breakeven probability is also significantly easier to calculate with decimal odds** (I honestly wish decimal odds were the norm). Assume decimal odds are $d$. Remember, we derived the formula for edge as:$$d \times [\text{Probability you Cover}] -1$$It follows that if $p$ is the breakeven probability, then we solve
+$$
+\begin{align}
+d \times p -1 &=0 \\\\\
+&\to p = \boxed{\dfrac{1}{d}}
+\end{align}
+$$
 
 ### Practice Questions
 
@@ -100,3 +105,5 @@ Depending on your experience with probability, these questions may be challengin
 5. Let the American odds for a given line be A. The formula for breakeven probability for 'positive' American odds (i.e. +120, +200) is $\dfrac{100}{A + 100}$ - i.e. for +220 odds, the breakeven probability is $\dfrac{100}{320}$. Derive this formula.
 
 6. Suppose instead of offering **-110** lines on both sides of a spread bet, a sportsbook offers **-105** lines (a smaller juice). Assuming 50-50 outcome probability, what is the new edge if betting on this line (either side)?
+
+Answers can be found in [Part Three]({{< ref "basic_intro_betting_3.md" >}}).

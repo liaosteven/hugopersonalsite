@@ -1,11 +1,11 @@
 ---
-title: "basics of sports betting: part one"
+title: "basics of sports betting part 1: definitions"
 date: 2018-08-10T14:48:45+08:00
 ---
 
 *In my content, I may frequently reference sports betting terminology / ideas. Under the [dry not wet](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w) principle, I am writing this guide.*
 
-*This is __Part One__ of Three. [Part One]({{< ref "basic_intro_betting.md" >}}) covers definitions and betting language. [Part Two]({{< ref "basic_intro_betting_2.md" >}}) covers key probability concepts in betting. [Part Three]({{< ref "basic_intro_betting_3.md" >}}) covers ancillary concepts such as bankroll management and implied odds.*
+*This is __Part One__ of Four. [Part One]({{< ref "basic_intro_betting.md" >}}) covers definitions and betting language. [Part Two]({{< ref "basic_intro_betting_2.md" >}}) covers key probability concepts in betting. [Part Three]({{< ref "basic_intro_betting_3.md" >}}) covers implied odds.*
 
 If a sportsbook is a restaurant, **betting lines** are the menu items you can choose from. Betting lines tell you who (which team or individual) you're betting on, conditions for winning the bet, and how much money you'll receive if you win. Just as with restaurants, the menu of betting lines differs by sportsbook; some offer better odds, some offer more diverse menu items (WNBA, high school football), some even offer build-your-own bets.
 
