@@ -1,6 +1,7 @@
 ---
 title: "credits"
 date: 2018-08-02T12:17:02+08:00
+comments: false
 ---
 ### font
 My preferred font (and my favorite font in general) for viewing this site: [*Brown* by Aurele Sacks](http://www.aurelesack.com/works/ll-brown/).  

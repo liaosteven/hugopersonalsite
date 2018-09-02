@@ -1,6 +1,7 @@
 ---
 title: "about"
 date: 2018-08-02T10:49:56+08:00
+comments: false 
 url: "/about/"
 ---
 
