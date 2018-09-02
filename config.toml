@@ -11,6 +11,7 @@ theme = "hugo-theme-crisp"
     index = "list"
     linkedin = "https://www.linkedin.com/in/steven-liao-997688b8/"
     github = "https://www.github.com/liaosteven"
+    disqus = "steven-liao-sports-analytics"
     
 [[menu.main]]
     

@@ -1,11 +1,11 @@
 ---
 title: "basics of sports betting part 3: implied odds"
-date: 2018-08-21T14:55:00+08:00
+date: 2018-08-23T14:55:00+08:00
 ---
 
 *This is __Part Three__ of Four. [Part One]({{< ref "basic_intro_betting.md" >}}) covers definitions and betting language. [Part Two]({{< ref "basic_intro_betting_2.md" >}}) covers key probability concepts in betting. [Part Three]({{< ref "basic_intro_betting_3.md" >}}) covers implied odds.*
 
-Welcome to Part Three of this guide! We'll cover implied odds and calculating juice, and briefly cover bankroll management theory (Kelly Criterion).
+Welcome to Part Three of the Basics of Sports Betting guide! In this guide we'll cover implied odds and calculating juice. Implied odds are a useful metric for estimating win probability (and has many use cases outside of sports betting, whenever you need an 'objective' metric for win probability). Calculating juice is important because obviously we prefer betting lines with smaller juice (akin to paying a smaller commission) - but it is not always clear how large the juice is for a given bet.
 
 The hope is after finishing this final section of the guide, you'll understand (most) of the basic concepts needed to build sports betting strategies that work for you.
 
@@ -55,7 +55,7 @@ $$as desired.
 	&\to p = \dfrac{100}{A+100}
 	\end{align}$$as desired.
 
-6. Suppose you bet \$105. If you win the bet (0.5 probability), you profit \$100. If you lose the bet (0.5 probability), you lose \$105. Thus, if you bet \$105, your expected value on the bet is $$0.5\times 100 - 0.5\times 105 = -2.5$$It follows your expected value is $-\dfrac{2.5}{105} = -\boxed{\dfrac{1}{42}} \approx -2.38\%$.
+6. Suppose you bet \$105. If you win the bet (0.5 probability), you profit \$100. If you lose the bet (0.5 probability), you lose \$105. Thus, if you bet \$105, your expected value on the bet is $$0.5\times 100 - 0.5\times 105 = -2.5$$It follows your expected value is $-\dfrac{2.5}{105} = \boxed{-\dfrac{1}{42}} \approx -2.38\%$.
  
 ### Implied Odds
 
@@ -70,7 +70,7 @@ Tails -110</b>
 
 From here, we might intuitively gather that the sportsbook believes heads and tails are equally likely - since they offer the same odds on each.
 
-However, it is not always clear what the sportsbook believes are the probabilities of each event occuring. Consider the following 'moneyline bet' (bet on which team wins outright, not on the spread)
+However, it is not always clear what the sportsbook believes are the probabilities of each event occuring. Consider the following 'moneyline bet' (bet on which team wins outright, not on the spread).
 
 <p style='text-align: center;'>
 <b>Patriots -250<br>
@@ -91,7 +91,7 @@ $$\text{Edge when Betting on Patriots}= 1.40\times 0.6818 -1 = 0.9548 - 1 \appro
 **What a sportsbook believes are the odds of an event occuring is valuable information as a strong, objective proxy for true probability.**  Consider:
 
 * Humans are pretty terrible at estimating odds; for instance, there is a tendency to overrate the chances a favorite wins. If I'm watching Federer vs Nadal, I simply don't trust a regular fan to give me an accurate percentage chance each player wins.
-* Sportsbooks have a tendency to be very accurate - i.e. events that sportsbooks give 80% chance of happening tend to happen around 80% of the time. This is because sportsbooks derive their livelihood off of accurately predicting odds (setting poor odds means they'll likely lose money to bettors). 
+* Sportsbooks have a tendency to be very accurate - i.e. events that sportsbooks give 80% chance of happening tend to happen around 80% of the time. This is because sportsbooks derive their livelihood off of accurately predicting odds. If they set poor odds, they can lose a lot of money to smart bettors. 
 * In addition to being accurate, sportsbook implied odds are *objective* - in that they are common for every game and can be cited. Objective data is valuable when doing projects because a) it allows the project to be reproducible (i.e. if you use 'my personally estimated odds', no one can reproduce your project in the future because they're not you) and b) it allows meaningful comparisons to be made.
 
 
@@ -119,8 +119,6 @@ Below is a Python script you can use for calculating implied odds (for events wi
 
 	    impliedA = oddsA/(oddsA + oddsB)
 	    impliedB = oddsB/(oddsA + oddsB)
-
-	    totalOdds = oddsA + oddsB
 
 	    print("Team A has an implied Vegas win probability of " + str(impliedA))
 	    print("Team B has an implied Vegas win probability of " + str(impliedB))
@@ -157,7 +155,7 @@ As an example, the juice on the Patriots-Jets moneyline from earlier is 4.5%.
 
 1. The Saints are playing the Panthers. The moneyline for the Saints is -150 and the money for the Panthers is +130. Assuming no tie, what are the implied odds of each outcome occurring?
 
-2. In the previous example, what is the juice?
+2. In the previous question, what is the juice?
 
 3. Suppose a rival sportsbook posts the moneyline for the Saints as -145 and the Panthers as +135. Now, what are the implied odds of each outcome occurring? What is the juice?
 
